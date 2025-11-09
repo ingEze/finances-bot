@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+.env
+*.txt
+docs/
+typedoc-assets
+task.md
+*.tgz
+RELEASE.MD

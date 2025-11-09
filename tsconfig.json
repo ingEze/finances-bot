@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "baseUrl": "./",
+    "rootDir": "./src",
+    "emitDeclarationOnly": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src/**/*", "*.ts", "*.js", "types"],
+  "exclude": ["node_modules", "dist", "test"]
+}
