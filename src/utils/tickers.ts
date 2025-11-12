@@ -1,6 +1,6 @@
 import { SimplifiedTicker, Ticker } from '../types/types.js'
 
-export function trickers(trickers: Ticker[]): { topTickers: SimplifiedTicker[], avgPriceUsd: number, totalVolumeUsd: number } {
+export function tickers(trickers: Ticker[]): { topTickers: SimplifiedTicker[], avgPriceUsd: number, totalVolumeUsd: number } {
   const simplifiedTicker: SimplifiedTicker[] = trickers.map(t => ({
     exchange: t.market.name,
     last: t.last,
